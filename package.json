@@ -1,0 +1,27 @@
+{
+  "name": "webdriverio-test",
+  "version": "2.0.0",
+  "description": "Modified by Sean Varvel",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio run wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/register": "^7.17.7",
+    "@wdio/cli": "^7.19.7",
+    "@wdio/local-runner": "^7.19.7",
+    "@wdio/mocha-framework": "^7.19.7",
+    "@wdio/spec-reporter": "^7.19.7",
+    "chromedriver": "^102.0.0",
+    "wdio-chromedriver-service": "^7.3.2"
+  },
+  "dependencies": {
+    "chai": "^4.3.6"
+  }
+}
